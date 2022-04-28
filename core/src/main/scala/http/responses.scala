@@ -1,0 +1,14 @@
+package dev.i10416.slackapis.http
+import dev.i10416.slackapis._
+object res {
+  case class ConversationInfoResponse(
+      ok: Boolean,
+      channel: Channel,
+      error: Option[String] = None
+  )
+  case class ListChannelsResponse(
+      ok: Boolean,
+      channels: Seq[Channel],
+      error: Option[String] = None
+  )
+}
