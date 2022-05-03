@@ -24,11 +24,22 @@ class CodecSuite extends munit.FunSuite {
   test("user") {
     import dev.i10416.slackapis.codec._
 
-    val user = User("name", "id")
+    val user = User(
+      "name",
+      "id",
+      deleted = false,
+      is_bot = false,
+      is_owner = false,
+      is_admin = false
+    )
     val data = """|
                       |{
                       |  "id": "id",
-                      |  "name": "name"
+                      |  "name": "name",
+                      |  "deleted": false,
+                      |  "is_bot": false,
+                      |  "is_owner": false,
+                      |  "is_admin": false
                       |}
                       |   """.stripMargin
     val Right(decoded) = parser.parse(data).flatMap(_.as[User])
