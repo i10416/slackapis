@@ -11,4 +11,9 @@ object res {
       channels: Seq[Channel],
       error: Option[String] = None
   )
+  case class TeamAccessLogsResponse(
+      ok: Boolean,
+      logins: Option[Seq[_]],
+      error: Option[String] = None
+  )
 }

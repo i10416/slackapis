@@ -68,6 +68,7 @@ trait SlackCodec {
     }
   implicit val confirmCodec = deriveCodec[Confirm]
   implicit val actionCodec = deriveCodec[Action]
+  implicit val accessLogCodec = deriveCodec[AccessLog]
   implicit val attachmentCodec = deriveCodec[Attachment]
   implicit val msgCodec = deriveCodec[Message]
   implicit val topicCodec = deriveCodec[Topic]
