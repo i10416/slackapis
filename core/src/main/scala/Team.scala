@@ -1,5 +1,7 @@
 package dev.i10416.slackapis
 
+import java.time.Instant
+
 case class Team(id: String, domain: String)
 
 case class AccessLog(
@@ -12,4 +14,7 @@ case class AccessLog(
     user_agent: String,
     country: String,
     region: String
-)
+) {
+  val dateLast = Instant.ofEpochSecond(date_last)
+  val dateFirst = Instant.ofEpochSecond(date_first)
+}
