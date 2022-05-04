@@ -4,18 +4,18 @@
 slack api types for Scala
 
 
-| scala version | pre-release                                                                                                                                                                                                      | release                                                                                                                                               |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2.12          | [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/dev.i10416/slackapis_2.12.svg)](https://s01.oss.sonatype.org/content/repositories/snapshots/dev/i10416/slackapis_2.12/) | [![Maven Central](https://img.shields.io/maven-central/v/dev.i10416/slackapis_2.12.svg)](https://search.maven.org/artifact/dev.i10416/slackapis_2.12) |
-| 2.13          | [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/dev.i10416/slackapis_2.13.svg)](https://s01.oss.sonatype.org/content/repositories/snapshots/dev/i10416/slackapis_2.13/) | [![Maven Central](https://img.shields.io/maven-central/v/dev.i10416/slackapis_2.13.svg)](https://search.maven.org/artifact/dev.i10416/slackapis_2.13) |
-| 3.1           | [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/dev.i10416/slackapis_3.1.svg)](https://s01.oss.sonatype.org/content/repositories/snapshots/dev/i10416/slackapis_3.1/)   | [![Maven Central](https://img.shields.io/maven-central/v/dev.i10416/slackapis_3.1.svg)](https://search.maven.org/artifact/dev.i10416/slackapis_3.1)   |
+| scala version | pre-release                                                                                                                                                                                                                | release                                                                                                                                                         |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2.12          | [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/dev.i10416/slackapis-core_2.12.svg)](https://s01.oss.sonatype.org/content/repositories/snapshots/dev/i10416/slackapis-core_2.12/) | [![Maven Central](https://img.shields.io/maven-central/v/dev.i10416/slackapis-core_2.12.svg)](https://search.maven.org/artifact/dev.i10416/slackapis-core_2.12) |
+| 2.13          | [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/dev.i10416/slackapis-core_2.13.svg)](https://s01.oss.sonatype.org/content/repositories/snapshots/dev/i10416/slackapis-core_2.13/) | [![Maven Central](https://img.shields.io/maven-central/v/dev.i10416/slackapis-core_2.13.svg)](https://search.maven.org/artifact/dev.i10416/slackapis-core_2.13) |
+| 3.1           | [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/dev.i10416/slackapis-core_3.1.svg)](https://s01.oss.sonatype.org/content/repositories/snapshots/dev/i10416/slackapis-core_3.1/)   | [![Maven Central](https://img.shields.io/maven-central/v/dev.i10416/slackapis-core_3.1.svg)](https://search.maven.org/artifact/dev.i10416/slackapis-core_3.1)   |
 
 
 ## Install
 
 sbt
 ```scala
-libraryDependencies  += "dev.i10416" %% "slackapis" % "0.0.1"
+libraryDependencies  += "dev.i10416" %% "slackapis-core" % "0.0.1"
 ```
 
 
