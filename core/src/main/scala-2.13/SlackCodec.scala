@@ -76,6 +76,8 @@ trait SlackCodec {
   implicit val userCodec = deriveCodec[User]
   implicit val teamCodec = deriveCodec[Team]
   implicit val listChResCodec = deriveCodec[res.ListChannelsResponse]
+  implicit val chInfoResCodec = deriveCodec[res.ConversationInfoResponse]
+  implicit val chSetTopicCodec = deriveCodec[res.ConversationsSetTopicResponse]
   implicit val inviteBotToChannelRequestCodec =
     deriveCodec[req.InviteBotToChannelRequest]
 }

@@ -1,9 +1,15 @@
 package dev.i10416.slackapis.http
 import dev.i10416.slackapis._
 object res {
+
   case class ConversationInfoResponse(
       ok: Boolean,
-      channel: Channel,
+      channel: Option[Channel],
+      error: Option[String] = None
+  )
+  case class ConversationsSetTopicResponse(
+      ok: Boolean,
+      channel: Option[Channel],
       error: Option[String] = None
   )
   case class ListChannelsResponse(

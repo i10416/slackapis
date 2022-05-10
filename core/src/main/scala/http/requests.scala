@@ -5,6 +5,10 @@ object req {
       channel: String,
       token: Option[String] = None
   )
+  case class ConversationsSetTopicRequest(
+      channel: String,
+      topic: String
+  )
   case class InviteBotToChannelRequest(
       channel: String,
       users: Seq[String]
