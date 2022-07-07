@@ -3,7 +3,7 @@ import org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._
 
 object Deps {
   val V = new {
-    val munit = "1.0.0-M5"
+    val munit = "1.0.0-M6"
     val circe = "0.15.0-M1"
     val CE = "3.3.11"
     val http4s = "1.0.0-M30"
